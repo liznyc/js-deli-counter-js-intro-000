@@ -12,11 +12,13 @@ if (katzDeliLine === undefined || katzDeliLine.length == 0) {
 }
 
 function currentLine (katzDeliLine){
+var MyArray = []
   if (katzDeliLine === undefined || katzDeliLine.length == 0) {
     return "The line is currently empty.";
   } else {
     for (var i = 0; i < katzDeliLine.length; i++) {
-      return "The line is currently: "+[i+1]+". "+katzDeliLine[i] + ",";
+    MyArray.push([i+1]+". "+katzDeliLine[i] + ",");
 }
+return "The line is currently: " + MyArray;
 }
 }
