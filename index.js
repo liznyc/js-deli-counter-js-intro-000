@@ -19,6 +19,6 @@ var MyArray = []
     for (var i = 0; i < katzDeliLine.length; i++) {
     MyArray.push(" "+[i+1]+". "+katzDeliLine[i]+" ");
 }
-return "The line is currently: " + MyArray;
+return "The line is currently:" + MyArray;
 }
 }
