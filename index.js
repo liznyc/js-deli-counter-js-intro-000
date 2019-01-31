@@ -16,7 +16,7 @@ function currentLine (katzDeliLine){
     return "The line is currently empty.";
   } else {
     for (var i = 0; i < katzDeliLine.length; i++) {
-      return "The line is currently: "+[i]+1 ". "katzDeliLine[i] ",";
+      return "The line is currently: "+[i]+1+". "+katzDeliLine[i] + ",";
 }
 }
 }
